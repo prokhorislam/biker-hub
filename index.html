@@ -76,22 +76,22 @@
     </style>
     <!-- customizing tailwind -->
     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-                'bike-primary': '#E76F51',
-                'back-primary': 'rgba(231, 111, 81, 0.10)'
-              }
-            }
-          }
-        }
-      </script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "bike-primary": "#E76F51",
+              "back-primary": "rgba(231, 111, 81, 0.10)",
+            },
+          },
+        },
+      };
+    </script>
   </head>
   <body class="">
     <header>
-        <!-- navigation bar -->
+      <!-- navigation bar -->
       <nav class="w-4/5 m-auto">
         <div class="navbar bg-base-100">
           <div class="flex-1">
@@ -133,110 +133,497 @@
             </ul>
           </div>
           <div class="pl-4">
-            <button class="btn w-24 poppins-700 text-sm text-white bg-bike-primary">Login</button>
+            <button
+              class="btn w-24 poppins-700 text-sm text-white bg-bike-primary"
+            >
+              Login
+            </button>
           </div>
         </div>
       </nav>
       <!-- header section -->
       <section class="w-4/5 mx-auto my-10">
         <div class="carousel lg:h-[480px] container bg-back-primary">
-            <div id="slide1" class="carousel-item relative w-full">
-              <div class="flex lg:flex-row flex-col justify-between px-20 py-8 md:py-14 lg:py-16">
-                <div class="space-y-7">
-                    <h2 class="poppins-700 text-3xl md:text-5xl lg:text-6xl">Ride-on R15 V4 <br> with Smile</h2>
-                    <p class="poppins-300 text-xs">Amet minim mollit non deserunt ullamco <br> 
-                        est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
-                    <button class="btn bg-bike-primary text-white h-10 md:h-14 lg:h-16 w-28 md:w-36 lg:w-40 rounded-xl poppins-600 text-sm">Purchase</button>
-                </div>
-                <div class="">
-                    <img
-                src="/images/bike1.png"
-                class="" />
-                </div>
+          <div id="slide1" class="carousel-item relative w-full">
+            <div
+              class="flex lg:flex-row flex-col justify-between px-20 py-8 md:py-14 lg:py-16"
+            >
+              <div class="space-y-7 mb-6">
+                <h2 class="poppins-700 text-3xl md:text-5xl lg:text-6xl">
+                  Ride-on R15 V4 <br />
+                  with Smile
+                </h2>
+                <p class="poppins-300 text-xs">
+                  Amet minim mollit non deserunt ullamco <br />
+                  est sit aliqua dolor do amet sint. Velit officia consequat
+                  <br />
+                  duis enim velit mollit.
+                </p>
+                <button
+                  class="btn bg-bike-primary text-white h-9 md:h-14 lg:h-16 w-24 md:w-36 lg:w-40 ml-14 md:ml-0 lg:ml-0 rounded-xl poppins-600 text-xs md:text-sm lg:text-sm"
+                >
+                  Purchase
+                </button>
               </div>
-              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide4" class="btn btn-circle">❮</a>
-                <a href="#slide2" class="btn btn-circle">❯</a>
-              </div>
-            </div>
-            <div id="slide2" class="carousel-item relative w-full">
-                <div class="flex lg:flex-row flex-col justify-between px-20 py-8 md:py-14 lg:py-16">
-                    <div class="space-y-7">
-                        <h2 class="poppins-700 text-3xl md:text-5xl lg:text-6xl">Ride-on R15 V4 <br> with Smile</h2>
-                        <p class="poppins-300 text-xs">Amet minim mollit non deserunt ullamco <br> 
-                            est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
-                        <button class="btn bg-bike-primary text-white h-10 md:h-14 lg:h-16 w-28 md:w-36 lg:w-40 rounded-xl poppins-600 text-sm">Purchase</button>
-                    </div>
-                    <div class="">
-                        <img
-                    src="/images/bike2.png"
-                    class="" />
-                    </div>
-                  </div>
-              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide1" class="btn btn-circle">❮</a>
-                <a href="#slide3" class="btn btn-circle">❯</a>
+              <div class="">
+                <img src="/images/bike1.png" class="" />
               </div>
             </div>
-            <div id="slide3" class="carousel-item relative w-full">
-                <div class="flex lg:flex-row flex-col justify-between px-20 py-8 md:py-14 lg:py-16">
-                    <div class="space-y-7">
-                        <h2 class="poppins-700 text-3xl md:text-5xl lg:text-6xl">Ride-on R15 V4 <br> with Smile</h2>
-                        <p class="poppins-300 text-xs">Amet minim mollit non deserunt ullamco <br> 
-                            est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
-                        <button class="btn bg-bike-primary text-white h-10 md:h-14 lg:h-16 w-28 md:w-36 lg:w-40 rounded-xl poppins-600 text-sm">Purchase</button>
-                    </div>
-                    <div class="">
-                        <img
-                    src="/images/bike3.png"
-                    class="" />
-                    </div>
-                  </div>
-              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide2" class="btn btn-circle">❮</a>
-                <a href="#slide4" class="btn btn-circle">❯</a>
+            <div
+              class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+            >
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <div
+              class="flex lg:flex-row flex-col justify-between px-20 py-8 md:py-14 lg:py-16"
+            >
+              <div class="space-y-7">
+                <h2 class="poppins-700 text-3xl md:text-5xl lg:text-6xl">
+                  Ride-on R15 V4 <br />
+                  with Smile
+                </h2>
+                <p class="poppins-300 text-xs">
+                  Amet minim mollit non deserunt ullamco <br />
+                  est sit aliqua dolor do amet sint. Velit officia consequat
+                  <br />
+                  duis enim velit mollit.
+                </p>
+                <button
+                  class="btn bg-bike-primary text-white h-10 md:h-14 lg:h-16 w-28 md:w-36 lg:w-40 rounded-xl poppins-600 text-sm"
+                >
+                  Purchase
+                </button>
+              </div>
+              <div class="">
+                <img src="/images/bike2.png" class="" />
               </div>
             </div>
-            <div id="slide4" class="carousel-item relative w-full">
-                <div class="flex lg:flex-row flex-col justify-between px-20 py-8 md:py-14 lg:py-16">
-                    <div class="space-y-7">
-                        <h2 class="poppins-700 text-3xl md:text-5xl lg:text-6xl">Ride-on R15 V4 <br> with Smile</h2>
-                        <p class="poppins-300 text-xs">Amet minim mollit non deserunt ullamco <br> 
-                            est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
-                        <button class="btn bg-bike-primary text-white h-10 md:h-14 lg:h-16 w-28 md:w-36 lg:w-40 rounded-xl poppins-600 text-sm">Purchase</button>
-                    </div>
-                    <div class="">
-                        <img
-                    src="/images/bike4.png"
-                    class="" />
-                    </div>
-                  </div>
-              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide3" class="btn btn-circle">❮</a>
-                <a href="#slide1" class="btn btn-circle">❯</a>
+            <div
+              class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+            >
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <div
+              class="flex lg:flex-row flex-col justify-between px-20 py-8 md:py-14 lg:py-16"
+            >
+              <div class="space-y-7">
+                <h2 class="poppins-700 text-3xl md:text-5xl lg:text-6xl">
+                  Ride-on R15 V4 <br />
+                  with Smile
+                </h2>
+                <p class="poppins-300 text-xs">
+                  Amet minim mollit non deserunt ullamco <br />
+                  est sit aliqua dolor do amet sint. Velit officia consequat
+                  <br />
+                  duis enim velit mollit.
+                </p>
+                <button
+                  class="btn bg-bike-primary text-white h-10 md:h-14 lg:h-16 w-28 md:w-36 lg:w-40 rounded-xl poppins-600 text-sm"
+                >
+                  Purchase
+                </button>
+              </div>
+              <div class="">
+                <img src="/images/bike3.png" class="" />
               </div>
             </div>
+            <div
+              class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+            >
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+            <div
+              class="flex lg:flex-row flex-col justify-between px-20 py-8 md:py-14 lg:py-16"
+            >
+              <div class="space-y-7">
+                <h2 class="poppins-700 text-3xl md:text-5xl lg:text-6xl">
+                  Ride-on R15 V4 <br />
+                  with Smile
+                </h2>
+                <p class="poppins-300 text-xs">
+                  Amet minim mollit non deserunt ullamco <br />
+                  est sit aliqua dolor do amet sint. Velit officia consequat
+                  <br />
+                  duis enim velit mollit.
+                </p>
+                <button
+                  class="btn bg-bike-primary text-white h-10 md:h-14 lg:h-16 w-28 md:w-36 lg:w-40 rounded-xl poppins-600 text-sm"
+                >
+                  Purchase
+                </button>
+              </div>
+              <div class="">
+                <img src="/images/bike4.png" class="" />
+              </div>
+            </div>
+            <div
+              class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+            >
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
         </div>
       </section>
     </header>
     <main>
-        <!-- featured bike in this year -->
-        <section class="w-4/5 m-auto">
-            <div class="flex flex-col justify-center items-center mt-32 mb-10">
-                <h3 class="poppins-600 text-2xl md:text-4xl lg:text-5xl">Fetured Bikes In This Year</h3>
-                <p class="poppins-600 text-xs text-bike-primary mt-2">Best bike collection</p>
-                <hr class="w-16 h-[3px] bg-bike-primary">
+      <!-- featured bike in this year -->
+      <section class="w-4/5 m-auto">
+        <div class="flex flex-col justify-center items-center mt-32 mb-10">
+          <h3 class="poppins-600 text-2xl md:text-4xl lg:text-5xl">
+            Fetured Bikes In This Year
+          </h3>
+          <p class="poppins-600 text-xs text-bike-primary mt-2">
+            Best bike collection
+          </p>
+          <hr class="w-16 h-[3px] bg-bike-primary" />
+        </div>
+        <div class="flex justify-between">
+          <img
+            class="w-28 h-24 md:w-44 md:h-48 lg:w-56 lg:h-56"
+            src="images/feature-bike.png"
+            alt=""
+          />
+          <img
+            class="w-28 h-24 md:w-44 md:h-48 lg:w-56 lg:h-56"
+            src="images/feature-bike.png"
+            alt=""
+          />
+          <img
+            class="w-28 h-24 md:w-44 md:h-48 lg:w-56 lg:h-56"
+            src="images/feature-bike.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <!-- latest news -->
+      <section class="my-40 mx-auto w-4/5">
+        <h2
+          class="poppins-600 text-3xl md:text-5xl lg:text-5xl text-center mb-20"
+        >
+          Latest News
+        </h2>
+        <!-- cards section -->
+        <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+          <!-- card 1 -->
+          <div class="card card-compact bg-base-100 w-auto shadow-xl">
+            <figure>
+              <img src="/images/latest1.png" alt="Bikes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title poppins-600 text-xl">
+                Ducati XDIAVEL S-73
+              </h2>
+              <p class="poppins-400 text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-start mt-8">
+                <button
+                  class="btn hover:text-black rounded-md bg-bike-primary text-white poppins-500 text-base"
+                >
+                  Read More
+                </button>
+              </div>
             </div>
-            <div class="flex justify-between">
-                <img class="w-28 h-24 md:w-44 md:h-48 lg:w-56 lg:h-56" src="images/feature-bike.png" alt="">
-                <img class="w-28 h-24 md:w-44 md:h-48 lg:w-56 lg:h-56" src="images/feature-bike.png" alt="">
-                <img class="w-28 h-24 md:w-44 md:h-48 lg:w-56 lg:h-56" src="images/feature-bike.png" alt="">
+          </div>
+          <!-- card 2 -->
+          <div class="card card-compact bg-base-100 w-auto shadow-xl">
+            <figure>
+              <img src="/images/latest2.png" alt="Bikes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title poppins-600 text-xl">
+                Motorcycles & Scooters
+              </h2>
+              <p class="poppins-400 text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-start mt-8">
+                <button
+                  class="btn hover:text-black rounded-md bg-bike-primary text-white poppins-500 text-base"
+                >
+                  Read More
+                </button>
+              </div>
             </div>
-        </section>
+          </div>
+          <!-- card 3 -->
+          <div class="card card-compact bg-base-100 w-auto shadow-xl">
+            <figure>
+              <img src="/images/latest3.png" alt="Bikes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title poppins-600 text-xl">2021 Honda CBR500R</h2>
+              <p class="poppins-400 text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-start mt-8">
+                <button
+                  class="btn hover:text-black rounded-md bg-bike-primary text-white poppins-500 text-base"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- happy clients says -->
+      <section class="w-4/5 mx-auto">
+        <h2
+          class="poppins-600 text-3xl md:text-5xl lg:text-5xl text-center mb-16"
+        >
+          Happy <span class="text-bike-primary">Clients says</span>
+        </h2>
+        <!-- ratings and reviews -->
+        <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+          <!-- review 1 -->
+          <div class="bg-base-100 w-auto shadow-xl p-10">
+            <img class="h-32 mx-auto" src="images/user-1.png" alt="Clients" />
+            <p class="poppins-400 text-base text-center my-5">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="rating flex justify-center">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+            </div>
+            <p class="poppins-600 my-5 text-center text-sm text-[#23A6F0]">
+              Regina Miles
+            </p>
+            <p class="poppins-600 text-center text-sm text-[#252B42]">Banker</p>
+          </div>
+          <!-- review 2 -->
+          <div class="bg-base-100 w-auto shadow-xl p-10">
+            <img class="h-32 mx-auto" src="images/user-2.png" alt="Clients" />
+            <p class="poppins-400 text-base text-center my-5">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="rating flex justify-center">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+            </div>
+            <p class="poppins-600 my-5 text-center text-sm text-[#23A6F0]">
+              Regina Miles
+            </p>
+            <p class="poppins-600 text-center text-sm text-[#252B42]">Banker</p>
+          </div>
+          <!-- review 3 -->
+          <div class="bg-base-100 w-auto shadow-xl p-10">
+            <img class="h-32 mx-auto" src="images/user-3.png" alt="Clients" />
+            <p class="poppins-400 text-base text-center my-5">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="rating flex justify-center">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+            </div>
+            <p class="poppins-600 my-5 text-center text-sm text-[#23A6F0]">
+              Regina Miles
+            </p>
+            <p class="poppins-600 text-center text-sm text-[#252B42]">Banker</p>
+          </div>
+        </div>
+      </section>
+      <!-- frequently asked questions -->
+      <section class="mt-36 mb-3 w-4/5 mx-auto">
+        <h2
+          class="poppins-600 text-3xl md:text-5xl lg:text-5xl text-center mb-20"
+        >
+          Frequently <span class="text-bike-primary">Asked Questions</span>
+        </h2>
+        <!-- hero part -->
+        <div class="bg-white min-h-screen w-auto">
+          <div class="flex flex-col md:flex-col lg:flex-row">
+            <div class="flex-1">
+              <img
+                src="/images/faq.png"
+                class="h-[300px] md:h-[400px] lg:h-[450px] mx-auto mb-10 lg:mb-0"
+              />
+            </div>
+            <!-- accordian part -->
+
+            <div class="flex-1">
+              <div
+                class="collapse collapse-arrow bg-white my-2 rounded-sm border-[#D5E5FB] border-2"
+              >
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium poppins-700">
+                  What are the most important things I should know about riding
+                  a bike?
+                </div>
+                <div class="collapse-content">
+                  <p class="text-[#7E848C] poppins-400 text-xs">
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="collapse collapse-arrow bg-white my-2 rounded-sm border-[#D5E5FB] border-2"
+              >
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium poppins-700">
+                  How can I tell if my helmet is old and I need a new one?
+                </div>
+                <div class="collapse-content">
+                  <p class="text-[#7E848C] poppins-400 text-xs">
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="collapse collapse-arrow bg-white my-2 rounded-sm border-[#D5E5FB] border-2"
+              >
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium poppins-700">
+                  My bike has been in storage is it safe to ride?
+                </div>
+                <div class="collapse-content">
+                  <p class="text-[#7E848C] poppins-400 text-xs">
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="collapse collapse-arrow bg-white my-2 rounded-sm border-[#D5E5FB] border-2"
+              >
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium poppins-700">
+                  What rules should I follow when riding my bike?
+                </div>
+                <div class="collapse-content">
+                  <p class="text-[#7E848C] poppins-400 text-xs">
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer>
-      <!-- <p>&copy; Biker Hub 2021</p> -->
-       
+    <footer class="footer h-auto w-full md:px-10 lg:px-40 py-14 bg-black text-neutral-content flex justify-between flex-col-reverse md:flex-row lg:flex-row">
+      <div class="mx-auto">
+        <ul  class="flex my-3 gap-4 poppins-400">
+          <li><a href="">Download Now</a></li>
+          <li><a href="">License</a></li>
+        </ul>
+        <ul class="flex gap-4 poppins-400">
+          <li><a href="">About</a></li>
+          <li><a href="">Features</a></li>
+          <li><a href="">Pricing</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Help</a></li>
+          <li><a href="">PrivacyPolicy</a></li>
+        </ul>
+        <p class="poppins-400 text-xs text-[#D9DBE1] mt-16">Copyright © 2021 - All right reserved by Biker Hub Ltd.</p>
+      </div>
+      <div class="mx-auto">
+        <p class="mb-6">Get the App</p>
+        <img class="h-10" src="/images/android.png" alt="">
+        <img class="h-10 my-2" src="/images/ios.png" alt="">
+      </div>
     </footer>
   </body>
 </html>
